@@ -1,0 +1,402 @@
+<!-- @import "top.html" -->
+
+<!-- @import "header.html" -->
+<main class="pt-0">
+  <div class="container">      
+    <div class="inner-wrapper">
+      <!-- checkout-wrapper -->
+      <div class="checkout-wrapper">        
+        <div class="steps">
+          <!-- step-item -->
+          <div class="step-item active">
+            <h3>Шаг 1 / КОНТАКТНЫЕ ДАННЫЕ</h3>
+            <div class="form-box">
+              <div class="selected-val-1">
+                <div class="radio-box">
+                  <div class="radio-item">
+                    <input type="radio" name="rad" value="val-1" checked id="rad01" class="fiz-rad radio-input">
+                    <label for="rad01">Физическое лицо</label>
+                  </div>
+                  <div class="radio-item">
+                    <input type="radio" name="rad" value="val-2" id="rad02" class="ure-rad radio-input">
+                    <label for="rad02">Юридическое лицо</label>
+                  </div>                  
+                </div>
+                <div class="step-box-body">
+                  <div class="value-box value-1">
+                    <form>
+                      <div class="form-subtitle">Заполните обязательные поля</div>
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="form-group"><input type="text" class="form-control" placeholder="Имя"><span class="star">*</span></div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group"><input type="text" class="form-control" placeholder="Фамилия"><span class="star">*</span></div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group"><input type="text" class="form-control" placeholder="Отчество"><span class="star">*</span></div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group"><input type="tel" class="form-control" placeholder="+7 (980) 184-84-40"><span class="star">*</span></div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group"><input type="email" class="form-control" placeholder="электронная почта"><span class="star">*</span></div>
+                        </div>
+                      </div>
+                      <button class="form-btn btn">Подтвердить</button>
+                    </form>
+                  </div>
+                  <div class="value-box value-2">
+                    <form>
+                      <div class="form-subtitle">Заполните обязательные поля</div>
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="form-group"><input type="text" class="form-control" placeholder="Имя"><span class="star">*</span></div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group"><input type="text" class="form-control" placeholder="Фамилия"><span class="star">*</span></div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group"><input type="text" class="form-control" placeholder="Отчество"><span class="star">*</span></div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group"><input type="tel" class="form-control" placeholder="+7 (980) 184-84-40"><span class="star">*</span></div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group"><input type="email" class="form-control" placeholder="электронная почта"><span class="star">*</span></div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group"><input type="text" class="form-control" placeholder="ИНН"><span class="star">*</span></div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group"><input type="text" class="form-control" placeholder="Название компании"><span class="star">*</span></div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group"><input type="text" class="form-control" placeholder="КПП"><span class="star">*</span></div>
+                        </div>
+                      </div>
+                      <div class="file-box">
+                        <p>Прикрепите файл с карточкой предприятия (не обязательно):</p>
+                        <div class="fileUpload">
+                          <input type="file" class="upload" />
+                          <span>Выбрать файл</span>
+                        </div>
+                      </div>
+                      <button class="form-btn btn">Подтвердить</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- / step-item -->
+          <!-- step-item -->
+          <div class="step-item active">
+            <h3>Шаг 2 / Доставка</h3>
+            <div class="form-box">
+              <div class="selected-val-1">
+                <div class="form-subtitle">Выберете способ получения заказа</div>
+                <div class="radio-box delivery-radio">
+                  <div class="radio-item">
+                    <input type="radio" checked name="dlv" value="val-1" id="dlv01" class="radio-input">
+                    <label for="dlv01">
+                      Самовывоз
+                      <span class="place">Шоурум, Москва, Новоалексеевская улица, 22к2</span>
+                    </label>
+                  </div>
+                  <div class="radio-item">
+                    <input type="radio" name="dlv" value="val-2" id="dlv02" class="radio-input">
+                    <label for="dlv02">
+                      Яндекс Доставка (в пределах 50 км от МКАД)
+                      <img src="images/dlv01.svg" alt="">
+                    </label>
+                  </div>
+                  <div class="radio-item">
+                    <input type="radio" name="dlv" value="val-3" id="dlv03" class="radio-input">
+                    <label for="dlv03">
+                      СДЭК (от 50 км от МКАД)
+                      <img src="images/dlv02.svg" alt="">
+                    </label>
+                  </div>
+                </div>               
+                <div class="step-box-body">
+                  <div class="value-box value-1">
+                    <div class="form-subtitle">Мы на карте</div>
+                    <div class="map"></div>
+                    <button class="form-btn btn">Подтвердить</button>
+                  </div>
+                  <div class="value-box value-2">
+                    <form>
+                      <div class="form-subtitle">Адрес доставки</div>
+                      <div class="form-group"><input type="text" placeholder="Введите адрес доставки" class="form-control"></div>
+                      <div class="form-subtitle">Выберите удобную дату м время доставки:</div>
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="form-group"><input type="text" placeholder="Дата" class="form-control form-date"></div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group"><input type="text" placeholder="Время" class="form-control form-time"></div>
+                        </div>
+                      </div>
+                      <div class="radio-box">
+                        <div class="radio-item">
+                          <input type="radio" name="dwn" checked id="dwn01">
+                          <label for="dwn01">Есть лифт</label>
+                        </div>
+                        <div class="radio-item">
+                          <input type="radio" name="dwn" id="dwn02">
+                          <label for="dwn02">Требуется подъем на этаж</label>
+                        </div>                  
+                      </div>
+                      <div class="form-subtitle">Комментарий к заказу</div>
+                      <div class="form-group">
+                        <textarea placeholder="Комментарий к заказу" cols="30" rows="10" class="form-control"></textarea>
+                      </div>
+                      <button class="form-btn btn">Подтвердить</button>
+                    </form>
+                  </div>
+                  <div class="value-box value-3">
+                    <form>
+                      <div class="form-subtitle">Адрес доставки</div>
+                      <div class="form-group"><input type="text" placeholder="Введите адрес доставки" class="form-control"></div>
+                      <div class="form-subtitle">Выберите удобную дату м время доставки:</div>
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="form-group"><input type="text" placeholder="Дата" class="form-control form-date"></div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group"><input type="text" placeholder="Время" class="form-control form-time"></div>
+                        </div>
+                      </div>
+                      <div class="radio-box">
+                        <div class="radio-item">
+                          <input type="radio" name="dwn-cdek" checked id="dwn-cdek01">
+                          <label for="dwn-cdek01">Есть лифт</label>
+                        </div>
+                        <div class="radio-item">
+                          <input type="radio" name="dwn-cdek" id="dwn-cdek02">
+                          <label for="dwn-cdek02">Требуется подъем на этаж</label>
+                        </div>                  
+                      </div>
+                      <div class="form-subtitle">Комментарий к заказу</div>
+                      <div class="form-group">
+                        <textarea placeholder="Комментарий к заказу" cols="30" rows="10" class="form-control"></textarea>
+                      </div>
+                      <button class="form-btn btn">Подтвердить</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- / step-item -->
+          <!-- step-item -->
+          <div class="step-item active">
+            <h3>Шаг 3 / Оплата</h3>
+            <div class="form-box">
+              <div class="">
+                <div class="radio-box delivery-box delivery-radio">
+                  <div class="radio-item">
+                    <input type="radio" name="pay" checked id="pay01">
+                    <label for="pay01">
+                      Картой онлайн
+                      <div class="pay-way">
+                        <img src="images/pay1.png" width="35" alt="">
+                        <img src="images/pay2.svg" width="35" alt="">
+                        <span>И другие...</span>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="radio-item">
+                    <input type="radio" name="pay" id="pay02">
+                    <label for="pay02">Наличными</label>
+                  </div>                  
+                  <div class="radio-item">
+                    <input type="radio" name="pay" checked id="pay03">
+                    <label for="pay03">
+                      СБП
+                      <div class="pay-way">
+                        <img src="images/pay3.svg" width="68" alt="">                        
+                      </div>
+                    </label>
+                  </div>
+                  <div class="radio-item">
+                    <input type="radio" name="pay" id="pay04">
+                    <label for="pay04">Банковский перевод</label>
+                  </div>                  
+                </div>
+                <button class="btn">Оплатить</button>
+                <div class="agree">Я соглашаюсь на <a href="#">обработку персональных данных</a> и принимаю условия продажи</div>
+              </div>
+            </div>
+          </div>
+          <!-- / step-item -->
+        </div>
+      </div>
+      <!-- / checkout-wrapper -->
+      <!-- cart -->
+      <div class="cart cart-visible">
+        <div class="cart-header">
+          <div class="pre-total no-border mb-3">
+            <p><span class="small-title">Ваш заказ</span></p> <span>5 товаров 12.5 кг</span>
+          </div>
+          <div class="pre-total no-border">
+            <p>Стоимость товаров</p> <div class="price">7 115 ₽</div>
+          </div>
+          <div class="pre-total">
+            <p>Стоимость доставки</p> <div class="delivery-price">Бесплатно</div>
+          </div>
+          <div class="total">
+            <div class="total-title">Итого:</div>
+            <div class="price">7 115 ₽</div>
+          </div>
+          <div class="promo-code">
+            <form>
+              <div class="form-row">
+                <div class="form-group"><input type="text" placeholder="Введите Промокод" class="form-control"></div>
+                <button class="promo-code-btn">Применить промокод</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="cart-body"> 
+          <div class="cart-line">
+            <div class="cart-img"><a href="#"><img src="images/pic01.jpeg" alt=""></a></div>
+            <div class="cart-line-inner">
+              <a href="#" class="close">
+                <svg class="icon">
+                  <use xlink:href="#close"></use>
+                </svg>        
+              </a>
+              <div class="cart-text">
+                <div class="cart-name"><a href="#">Vincent Royal Mat</a></div>
+                <p>Объем, л: <span>2,5 л</span></p>
+                <p>Цвет: <span>BC (насыщенные тона)</span></p>
+              </div>
+              <div class="product-item-amount">
+                <div class="product-item-amount-field-container">
+                  <div class="product-item-amount-field-block">
+                    <input type="number" value="1" class="product-item-amount-field">
+                  </div>
+                </div>
+                <div class="product-item-amount-plus">+</div>
+                <div class="product-item-amount-minus">&minus;</div>
+              </div>
+              <div class="price">1 435 ₽</div>
+            </div>
+          </div>
+          <div class="cart-line">
+            <a href="#" class="close">
+              <svg class="icon">
+                <use xlink:href="#close"></use>
+              </svg>        
+            </a>
+            <div class="cart-img"><a href="#"><img src="images/pic01.jpeg" alt=""></a></div>
+            <div class="cart-line-inner">
+              <div class="cart-text">
+                <div class="cart-name"><a href="#">Vincent Royal Mat</a></div>
+                <p>Объем, л: <span>2,5 л</span></p>
+                <p>Цвет: <span>BC (насыщенные тона)</span></p>
+              </div>
+              <div class="product-item-amount">
+                <div class="product-item-amount-field-container">
+                  <div class="product-item-amount-field-block">
+                    <input type="number" value="1" class="product-item-amount-field">
+                  </div>
+                </div>
+                <div class="product-item-amount-plus">+</div>
+                <div class="product-item-amount-minus">&minus;</div>
+              </div>
+              <div class="price">1 435 ₽</div>
+            </div>
+          </div>
+          <div class="cart-line">
+            <a href="#" class="close">
+              <svg class="icon">
+                <use xlink:href="#close"></use>
+              </svg>        
+            </a>
+            <div class="cart-img"><a href="#"><img src="images/pic01.jpeg" alt=""></a></div>
+            <div class="cart-line-inner">
+              <div class="cart-text">
+                <div class="cart-name"><a href="#">Vincent Royal Mat</a></div>
+                <p>Объем, л: <span>2,5 л</span></p>
+                <p>Цвет: <span>BC (насыщенные тона)</span></p>
+              </div>
+              <div class="product-item-amount">
+                <div class="product-item-amount-field-container">
+                  <div class="product-item-amount-field-block">
+                    <input type="number" value="1" class="product-item-amount-field">
+                  </div>
+                </div>
+                <div class="product-item-amount-plus">+</div>
+                <div class="product-item-amount-minus">&minus;</div>
+              </div>
+              <div class="price">1 435 ₽</div>
+            </div>
+          </div>
+          <div class="cart-line">
+            <a href="#" class="close">
+              <svg class="icon">
+                <use xlink:href="#close"></use>
+              </svg>        
+            </a>
+            <div class="cart-img"><a href="#"><img src="images/pic01.jpeg" alt=""></a></div>
+            <div class="cart-line-inner">
+              <div class="cart-text">
+                <div class="cart-name"><a href="#">Vincent Royal Mat</a></div>
+                <p>Объем, л: <span>2,5 л</span></p>
+                <p>Цвет: <span>BC (насыщенные тона)</span></p>
+              </div>
+              <div class="product-item-amount">
+                <div class="product-item-amount-field-container">
+                  <div class="product-item-amount-field-block">
+                    <input type="number" value="1" class="product-item-amount-field">
+                  </div>
+                </div>
+                <div class="product-item-amount-plus">+</div>
+                <div class="product-item-amount-minus">&minus;</div>
+              </div>
+              <div class="price">1 435 ₽</div>
+            </div>
+          </div>
+          <div class="cart-line">
+            <a href="#" class="close">
+              <svg class="icon">
+                <use xlink:href="#close"></use>
+              </svg>        
+            </a>
+            <div class="cart-img"><a href="#"><img src="images/pic01.jpeg" alt=""></a></div>
+            <div class="cart-line-inner">
+              <div class="cart-text">
+                <div class="cart-name"><a href="#">Vincent Royal Mat</a></div>
+                <p>Объем, л: <span>2,5 л</span></p>
+                <p>Цвет: <span>BC (насыщенные тона)</span></p>
+              </div>
+              <div class="product-item-amount">
+                <div class="product-item-amount-field-container">
+                  <div class="product-item-amount-field-block">
+                    <input type="number" value="1" class="product-item-amount-field">
+                  </div>
+                </div>
+                <div class="product-item-amount-plus">+</div>
+                <div class="product-item-amount-minus">&minus;</div>
+              </div>
+              <div class="price">1 435 ₽</div>
+            </div>
+          </div>
+        </div>
+        <div class="help-info">Нужна помощь или есть вопрос? Свяжитесь с нами <a href="tel:8(980)1848440">8 (980) 184-84-40</a></div>
+      </div>
+      <!-- / cart -->
+    </div>        
+    
+  </div>
+</main>
+
+<!-- @import "svg.html" -->
+
+
+<!-- @import "bottom.html" -->
+
+

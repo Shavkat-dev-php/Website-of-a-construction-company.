@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>#</title> 
+    <!-- CSS -->
+    <style>
+      body,html{
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      *{
+         box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+      }
+      .flex{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        width: 100%;
+        min-height: 100%;
+        flex-wrap: wrap;
+        border: 2px solid #fff;
+          flex: 1;
+          height: 100%;
+      }
+      a{
+        display: block;
+        border: 3px solid #fff;
+        background: #f2f8fc;
+        color: #000;
+        font-size: 20px;
+        line-height: 15px;
+        /* width: 25%; */
+         flex: 1 1 25%;
+         /*flex: 1;*/
+        justify-content: center;
+          flex-direction: column;
+          display: -webkit-flex;
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: flex;
+          flex-wrap: wrap;
+          text-align: center;
+          -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        transition: all 0.3s ease;        
+        
+      }      
+      a:hover{
+        color: #fff;
+        background:#CBA265;
+      }
+      .new{
+        background: #25315D;
+        color: #fff;
+      }
+    </style>    
+  </head>
+  <body>
+    <div class="flex">
+      <a target="_blank"  href="main.html">main</a>
+      <a target="_blank"  href="category.html" class="">category</a>
+      <a target="_blank"  href="catalog.html" class="">catalog</a> 
+      <a target="_blank"  href="product.html" class="">product</a>           
+      <a target="_blank"  href="checkout.html" class="">checkout</a>           
+    </div>
+  </body>
+</html>

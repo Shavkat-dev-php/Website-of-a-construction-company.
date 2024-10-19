@@ -1,0 +1,191 @@
+/*delivery.html*/
+main {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.breadcrumb {
+  padding-left: 21px;
+  display: flex;
+  gap: 4px;
+}
+
+.delivery__title__inner {
+  font-family: "bebas_neuebold", sans-serif;
+  font-size: 114px;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 21px;
+}
+
+.delivery__title {
+  display: flex;
+  gap: 792px;
+}
+
+.car-delivery {
+  width: 394px;
+  height: 174px;
+}
+
+.section {
+  padding-top: 117px;
+  display: flex;
+  flex-direction: row;
+}
+
+.section__wrapper {
+  width: 370px;
+}
+
+.content {
+  padding-left: 145px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  text-align: left;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.list {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  color: #292929;
+  width: 641px;
+  line-height: 21px;
+  list-style: circle;
+  margin-left: 20px;
+}
+
+.list__subtext {
+  padding-top: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-family: "oswald", sans-serif;
+  width: 478px;
+}
+
+.arrow-up {
+  width: 38px;
+  height: 38px;
+}
+
+
+.questions {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #BB7F24;
+}
+
+.callback {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: right;
+
+}
+
+.section__inner {
+  justify-content: space-between;
+  display: flex;
+  align-items: flex-end;
+}
+
+.phone__link {
+  color: #060402;
+  font-family: "Oswald";
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.e-mail {
+  font-family: "Oswald", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: #CBA265;
+  text-transform: uppercase;
+}
+
+.mouse {
+  position: relative;
+  width: auto;
+  top: 74px;
+  left: -400px;
+}
+
+.address {
+  color: #060402;
+  font-family: "Oswald", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.social__links {
+  color: #060402;
+  display: flex;
+  gap: 34px;
+}
+
+.btn,
+.btn-secondary,
+.dropdown-toggle {
+  background: none !important;
+}
+
+.section {
+  display: flex;
+}
+
+.content__none {
+  display: none;
+}
+
+h2.title {
+  width: 379px;
+}
+
+
+
+.button {
+  padding: 0.5lh 1.5lh;
+  font: inherit;
+  color: currentColor;
+  border: none;
+  cursor: pointer;
+  background: none;
+  padding-left: 1000px;
+}
+
+.button:hover,
+.button:focus-visible {}
+
+.menu {
+  position: relative;
+  display: grid;
+  margin-block-start: 0.5lh;
+
+  overflow: hidden;
+  line-height: 0;
+  color: transparent;
+  transition: line-height 0.5s, color 0.5s;
+}
+
+.menu-item {
+  overflow: hidden;
+}
+
+.menu-link {
+  display: block;
+  padding: 0.5lh 80px;
+}
+
+.button.active~.menu {
+  line-height: 1.2;
+  color: currentColor;
+}
